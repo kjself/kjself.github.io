@@ -1,0 +1,82 @@
+body {
+	background-color: cadetblue;
+	color: darkslategray;
+	font-family: monospace;
+}
+
+h2 {
+	color: dimgray;
+	border-bottom: solid 5px;
+}
+
+p {
+	background-color: linen;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.desc {
+	padding-left: 20px;
+	margin-top: -15px;
+	background: 0%
+}
+
+#container {
+	display: grid;
+	background-color: peachpuff;
+	border-radius: 10px;
+	padding: 10px;
+	grid-template-columns: 25% 75%;
+	grid-template-rows: auto auto;
+	max-width: 800px;
+	margin: auto;
+}
+
+.option {
+	color: darkslategray;
+}
+
+a:hover {
+	color: purple;
+	font-style: italic;
+}
+
+#alltabs {
+	margin-left: -25px;
+}
+
+.tabs {
+	display: inline;
+	background-color: linen;
+	padding: 5px;
+	border-radius: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	color: darkslategray;
+	overflow: auto;
+}
+
+#tab-selected {
+	padding-bottom: 25px;
+}
+
+.circle {
+	display: block;
+	margin: auto;
+	border-radius: 50%;
+}
+
+.left {
+	grid-column: 1;
+	grid-row: 2;
+	margin-right: 10px;
+	padding: 5px;
+	border-radius: 5px;
+	background-color: linen;
+}	
+
+.center {
+	grid-column: 2;
+	grid-row: 2;
+	margin-top: -13px;
+}
